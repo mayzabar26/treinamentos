@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Treinamento em Vídeo</title>
+  <link rel="stylesheet" href="/style/style.css">
+</head>
+
+<body>
+    <header class="hero">
+        <div class="hero-text">
+            <h1>Treinamento em Vídeo</h1>
+            <p>Bem-vindo ao Treinamento em Vídeo<br>
+            Acesse nossos vídeos de treinamento e fortaleça seu conhecimento em cada etapa da sua jornada.</p>
+            <a href="#categorias" class="btn">Comece agora →</a>
+        </div>
+    </header>
+    
+    <main>
+        <!-- Categorias -->
+        <section id="categorias" class="categories">
+            <h2>Categorias</h2>
+            <div class="cards">
+                
+                <div class="card" onclick="showVideos('portal')">
+                    <h3>Portal</h3>
+                    <p>Tudo sobre o nosso portal de treinamento.</p>
+                </div>
+        
+                <div class="card" onclick="showVideos('proposito')">
+                    <h3>Propósito Missionário</h3>
+                    <p>Inspire-se e fortaleça seu propósito.</p>
+                </div>
+                
+                <div class="card" onclick="showVideos('alunos')">
+                    <h3>Alunos</h3>
+                    <p>Conteúdos para os nossos alunos.</p>
+                </div>
+        
+                <div class="card" onclick="showVideos('ministracao')">
+                    <h3>Ministração</h3>
+                    <p>Aprenda e aprimore sua ministração.</p>
+                </div>
+                
+                <div class="card" onclick="showVideos('dicas')">
+                    <h3>Dicas</h3>
+                    <p>Dicas práticas para o seu dia a dia.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Por que assistir -->
+        <section class="info">
+            <h2>Por que assistir?</h2>
+            <p><strong>Mais conhecimento, mais preparo!</strong></p>
+            
+            <ul>
+                <li>Conteúdo organizado</li>
+                <li>Assista em qualquer lugar</li>
+                <li>Aprendizado prático</li>
+                <li>Feito com muito carinho</li>
+            </ul>
+        </section>
+        
+        <!-- Como funciona -->
+        <section class="steps">
+            <h2>Como funciona?</h2>
+            
+            <ol>
+                <li>Escolha a categoria</li>
+                <li>Selecione o vídeo</li>
+                <li>Assista e aprenda</li>
+                <li>Coloque em prática</li>
+            </ol>
+        </section>
+        
+        <!-- Vídeos -->
+        <section id="videos" class="videos">
+            <h2>Vídeos</h2>
+            <div id="video-list" class="video-list"></div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2026 Treinamento em Vídeo - Juntos no seu crescimento!</p>
+    </footer>
+    
+    <script src="/scripts/script.js"></script>
+</body>
+</html>

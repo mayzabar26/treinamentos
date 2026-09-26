@@ -1,91 +1,310 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Treinamento em Vídeo</title>
-  <link rel="stylesheet" href="/style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinamento em Vídeo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="/style/style.css">
 </head>
 
 <body>
-    <header class="hero">
-        <div class="hero-text">
-            <h1>Treinamento em Vídeo</h1>
-            <p>Bem-vindo ao Treinamento em Vídeo<br>
-            Acesse nossos vídeos de treinamento e fortaleça seu conhecimento em cada etapa da sua jornada.</p>
-            <a href="#categorias" class="btn">Comece agora →</a>
+    <header class="header">
+        <div class="logo">
+            <div class="logo-icon">
+                <i class="fa-solid fa-play"></i>
+            </div>
+            
+            <div class="logo-text">
+                <strong>Treinamento</strong>
+                <span>EM VÍDEO</span>
+            </div>
         </div>
+        
+        <nav class="navigation">
+            <a href="#" class="active">
+                Início
+            </a>
+            
+            <a href="#categorias">
+                Categorias
+            </a>
+
+            <a href="#sobre">
+                Sobre
+            </a>
+        </nav>
     </header>
     
-    <main>
-        <!-- Categorias -->
-        <section id="categorias" class="categories">
-            <h2>Categorias</h2>
-            <div class="cards">
+    <section class="hero">
+        <!-- elementos decorativos -->    
+        <div class="hero-glow"></div>
+        
+        <div class="decor-lines">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <div class="play-decoration">
+            <i class="fa-solid fa-play"></i>
+        </div>
+        
+        <!-- conteúdo da esquerda -->
+        <div class="hero-content">
+            <span class="eyebrow">
+                BEM-VINDO AO
+            </span>
+            
+            <h1>
+                Treinamento
+                <br>
+                <span>em Vídeo</span>
+            </h1>
+            
+            <p>
+                Acesse nossos vídeos de treinamento
+                e fortaleça seu conhecimento em
+                cada etapa da sua jornada.
+            </p>
+            
+            <a href="#categorias" class="main-button">   
+                <span class="button-play">
+                    <i class="fa-solid fa-play"></i>
+                </span>
+                Comece agora
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+        
+        <!-- CARDS -->
+        <div class="categories" id="categorias">
+            <button class="category-card portal">
                 
-                <div class="card" onclick="showVideos('portal')">
+                <div class="card-icon">
+                    <i class="fa-solid fa-users"></i>
+                </div>
+                
+                <div>
                     <h3>Portal</h3>
-                    <p>Tudo sobre o nosso portal de treinamento.</p>
+                    
+                    <p>
+                        Tudo sobre o nosso
+                        portal de treinamento.
+                    </p>
                 </div>
-        
-                <div class="card" onclick="showVideos('proposito')">
+                
+                <i class="fa-solid fa-arrow-right arrow"></i>
+            </button>
+            
+            <button class="category-card mission">
+                <div class="card-icon">
+                    <i class="fa-solid fa-crosshairs"></i>
+                </div>
+                
+                <div>
                     <h3>Propósito Missionário</h3>
-                    <p>Inspire-se e fortaleça seu propósito.</p>
+                    
+                    <p>
+                        Inspire-se e fortaleça
+                        seu propósito.
+                    </p>
                 </div>
                 
-                <div class="card" onclick="showVideos('alunos')">
-                    <h3>Alunos</h3>
-                    <p>Conteúdos para os nossos alunos.</p>
+                <i class="fa-solid fa-arrow-right arrow"></i>
+            </button>
+            
+            <button class="category-card students">
+                <div class="card-icon">
+                    <i class="fa-solid fa-graduation-cap"></i>
                 </div>
-        
-                <div class="card" onclick="showVideos('ministracao')">
+                
+                <div>
+                    <h3>Alunos</h3> 
+                    <p>
+                        Conteúdos para
+                        os nossos alunos.
+                    </p>
+                </div>
+                
+                <i class="fa-solid fa-arrow-right arrow"></i>
+            </button>
+            
+            <button class="category-card ministry">
+                <div class="card-icon">
+                    <i class="fa-solid fa-volume-high"></i>
+                </div>
+                
+                <div>
                     <h3>Ministração</h3>
-                    <p>Aprenda e aprimore sua ministração.</p>
+                    <p>
+                        Aprenda e aprimore
+                        sua ministração.
+                    </p>
                 </div>
                 
-                <div class="card" onclick="showVideos('dicas')">
+                <i class="fa-solid fa-arrow-right arrow"></i>
+            </button>
+            
+            <button class="category-card tips">
+                <div class="card-icon">
+                    <i class="fa-solid fa-lightbulb"></i>
+                </div>
+                
+                <div>
                     <h3>Dicas</h3>
-                    <p>Dicas práticas para o seu dia a dia.</p>
+                    <p>
+                        Dicas práticas para o seu dia a dia.
+                    </p>
+                </div>
+                <i class="fa-solid fa-arrow-right arrow"></i>
+            </button>
+        </div>
+    </section>
+    
+    <section class="information" id="sobre">
+        <div class="why">
+            
+            <span class="section-label">
+                POR QUE ASSISTIR?
+            </span>
+            
+            <h2>
+                Mais conhecimento,
+                <br>
+                mais preparo!
+            </h2>
+            
+            <p>
+                Nossos vídeos foram preparados para te ajudar
+                a crescer, aprender e aplicar o que você aprende
+                na prática.
+            </p>
+            
+            <div class="benefits">
+                <div class="benefit">
+                    <div class="benefit-icon purple">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    
+                    <span>
+                        Conteúdo
+                        <br>
+                        organizado
+                    </span>
+                </div>
+                
+                <div class="benefit">
+                    <div class="benefit-icon pink">
+                        <i class="fa-solid fa-mobile-screen"></i>
+                    </div>
+                    
+                    <span>
+                        Assista em
+                        <br>
+                        qualquer lugar
+                    </span>
+                </div>
+                
+                <div class="benefit">
+                    <div class="benefit-icon green">
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+                    
+                    <span>
+                        Aprendizado
+                        <br>
+                        prático
+                    </span>
+                </div>
+                
+                <div class="benefit">
+                    <div class="benefit-icon yellow">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    
+                    <span>
+                        Feito com
+                        <br>
+                        muito carinho
+                    </span>
                 </div>
             </div>
-        </section>
+        </div>
         
-        <!-- Por que assistir -->
-        <section class="info">
-            <h2>Por que assistir?</h2>
-            <p><strong>Mais conhecimento, mais preparo!</strong></p>
+        <div class="how">
+            <span class="section-label">
+                COMO FUNCIONA?
+            </span>
             
-            <ul>
-                <li>Conteúdo organizado</li>
-                <li>Assista em qualquer lugar</li>
-                <li>Aprendizado prático</li>
-                <li>Feito com muito carinho</li>
-            </ul>
-        </section>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number purple-bg">
+                        1
+                    </div>
+                    
+                    <div>
+                        <h3>Escolha a categoria</h3>
+                        <p>
+                            Navegue entre as categorias e encontre o que precisa.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number pink-bg">
+                        2
+                    </div>
+                    
+                    <div>
+                        <h3>Selecione o vídeo</h3>
+                        <p>
+                            Clique no vídeo que deseja assistir.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number green-bg">
+                        3
+                    </div>
+                    
+                    <div>
+                        <h3>Assista e aprenda</h3>
+                        <p>
+                            Reproduza pelo link do Drive e aproveite o conteúdo.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number blue-bg">
+                        4
+                    </div>
+                    
+                    <div>
+                        <h3>Coloque em prática</h3>
+                        <p>Aplique o que aprendeu e veja a diferença!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         
-        <!-- Como funciona -->
-        <section class="steps">
-            <h2>Como funciona?</h2>
+        <div class="growth-message">
+            <span>
+                Juntos
+                <br>
+                no seu
+                <br>
+                crescimento!
+            </span>
             
-            <ol>
-                <li>Escolha a categoria</li>
-                <li>Selecione o vídeo</li>
-                <li>Assista e aprenda</li>
-                <li>Coloque em prática</li>
-            </ol>
-        </section>
-        
-        <!-- Vídeos -->
-        <section id="videos" class="videos">
-            <h2>Vídeos</h2>
-            <div id="video-list" class="video-list"></div>
-        </section>
-    </main>
-    
-    <footer>
-        <p>© 2026 Treinamento em Vídeo - Juntos no seu crescimento!</p>
-    </footer>
-    
+            <i class="fa-solid fa-play"></i>
+        </div>
+    </section>
     <script src="/scripts/script.js"></script>
 </body>
 </html>

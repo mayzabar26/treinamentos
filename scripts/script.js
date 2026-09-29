@@ -1,7 +1,4 @@
-/* ========================================
-   DADOS DOS TREINAMENTOS
-======================================== */
-
+///DADOS DOS TREINAMENTOS
 const categories = [
     {
         id: "portal",
@@ -40,12 +37,8 @@ const categories = [
 ];
 
 
-/* ========================================
-   VÍDEOS
-======================================== */
-
+//VÍDEOS
 const videos = {
-
     portal: [
 
         {
@@ -62,7 +55,6 @@ const videos = {
 
     ],
 
-
     proposito: [
 
         {
@@ -72,7 +64,6 @@ const videos = {
         }
 
     ],
-
 
     alunos: [
 
@@ -115,10 +106,7 @@ const videos = {
 };
 
 
-/* ========================================
-   ELEMENTOS HTML
-======================================== */
-
+//ELEMENTOS HTML
 const categoriesContainer =
     document.querySelector(
         "#categories-container"
@@ -155,14 +143,10 @@ const backButton =
     );
 
 
-/* ========================================
-   MOSTRAR CATEGORIAS
-======================================== */
-
+///MOSTRAR CATEGORIAS
 function displayCategories() {
 
     categoriesContainer.innerHTML = "";
-
     categories.forEach(category => {
 
         const card =
@@ -194,16 +178,12 @@ function displayCategories() {
         );
 
         categoriesContainer.appendChild(card);
-
     });
 
 }
 
 
-/* ========================================
-   MOSTRAR VÍDEOS
-======================================== */
-
+///MOSTRAR VÍDEOS
 function displayVideos(category) {
 
     categoriesSection.classList.add(
@@ -289,17 +269,12 @@ function displayVideos(category) {
             `;
 
             videosContainer.appendChild(card);
-
         }
     );
-
 }
 
 
-/* ========================================
-   VOLTAR PARA CATEGORIAS
-======================================== */
-
+//VOLTAR PARA CATEGORIAS
 backButton.addEventListener(
     "click",
     () => {
@@ -316,13 +291,9 @@ backButton.addEventListener(
             top: 0,
             behavior: "smooth"
         });
-
     }
 );
 
 
-/* ========================================
-   INICIAR SITE
-======================================== */
-
+///INICIAR SITE
 displayCategories();

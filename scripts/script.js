@@ -1,4 +1,4 @@
-///DADOS DOS TREINAMENTOS
+//DADOS DOS TREINAMENTOS
 const categories = [
     {
         id: "portal",

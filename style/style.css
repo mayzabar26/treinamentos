@@ -54,6 +54,14 @@ input {font-family: inherit;}
     box-shadow: 0 10px 35px rgba(18, 17, 63, 0.10);
 }
 
+.menu {
+    margin-left: auto;
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 /*================LOGO================*/
 .logo {
     display: flex;
@@ -149,7 +157,7 @@ input {font-family: inherit;}
     color: white;
     border-radius: 40px;
     background: linear-gradient(90deg, #734de9, #874be7);
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 600;
     box-shadow: 0 12px 28px rgba(50, 25, 120, 0.30);
     transition: transform 0.25s ease, box-shadow 0.25s ease;

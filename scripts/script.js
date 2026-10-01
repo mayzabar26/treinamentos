@@ -58,11 +58,28 @@ const videos = {
     proposito: [
 
         {
-            title: "Propósito Missionário",
+            title: "Propósito Missionário - Parte 1",
             description: "Entenda o propósito do trabalho missionário.",
-            link: "COLE_AQUI_O_LINK_DO_DRIVE"
-        }
+            link: "https://drive.google.com/file/d/1U_BsEzAO3rEXcOSyqV2GUd5bJV2CATdI/view?usp=sharing"
+        },
 
+        {
+            title: "Propósito Missionário - Parte 2",
+            description: "Entenda o propósito do trabalho missionário.",
+            link: "https://drive.google.com/file/d/11fWwc1Hs7U5HOXfLTAhs4apXQZD0xU6t/view?usp=sharing"
+        },
+
+        {
+            title: "Propósito Missionário - Parte 3",
+            description: "Entenda o propósito do trabalho missionário.",
+            link: "https://drive.google.com/file/d/12e9NQfZnsp9qXaOYrr3NBN8qrqrzcAG2/view?usp=sharing"
+        },
+
+        {
+            title: "Propósito Missionário - Parte 4",
+            description: "Entenda o propósito do trabalho missionário.",
+            link: "https://drive.google.com/file/d/1bFp2IOBBzQwFv3NhomwC3oKV6g0VPmI4/view?usp=sharing"
+        }
     ],
 
     alunos: [

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Treinamentos em vídeo">
+    <title>Treinamentos em Vídeo</title>
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="/style/categorias.css" >
+</head>
+
+<body>
+
+    <!--HEADER-->
+    <header class="video-header">
+
+        <!--VOLTAR-->
+        <a href="index.html" class="back-home">
+            <i class="fa-solid fa-arrow-left"></i>
+            <span>Voltar ao início</span>
+        </a>
+
+        <!--LOGO-->
+        <div class="header-title">
+            <div class="header-logo">
+                <i class="fa-solid fa-play"></i>
+            </div>
+
+            <div>
+                <strong>Treinamento</strong>
+                <span>EM VÍDEO</span>
+            </div>
+        </div>
+    </header>
+
+    <!--CONTEÚDO PRINCIPAL-->
+    <main class="videos-page">
+
+        <!--CABEÇALHO DA CATEGORIA-->
+        <section class="category-header">
+            <span class="category-label">TREINAMENTOS</span>
+            <h1 id="category-title">Carregando...</h1>
+            <p id="category-description">Aguarde enquanto carregamos os treinamentos.</p>
+        </section>
+
+        <!--LISTA DE VÍDEOS-->
+        <section class="videos-section">
+            <div id="videos-container" class="videos-grid"></div>
+        </section>
+    </main>
+
+    <script src="/scripts/categorias.js"></script>
+</body>
+</html>

@@ -88,18 +88,30 @@ const videos = {
     //MINISTRAÇÃO
     ministracao: [
         {
-            title: "Como realizar uma ministração",
+            title: "Ministração",
             description: "Aprenda os principais pontos da ministração.",
-            link: "COLE_AQUI_O_LINK_DO_DRIVE"
+            link: "https://drive.google.com/file/d/1nDtLEtCJx_ZO66YDjzIcrrfmqUK6yjri/view?usp=sharing"
+        },
+
+        {
+            title: "A importância da Visita para Novos Alunos.",
+            description: "A importância da Visita para Novos Alunos.",
+            link: "https://drive.google.com/file/d/18bj4AHb1DpQ2qdM8bs2j1cwhW3QUGjGK/view?usp=sharing"
         }
     ],
 
-    // DICAS
+    //DICAS
     dicas: [
         {
             title: "Dica importante",
-            description: "Uma dica para melhorar seu trabalho.",
-            link: "COLE_AQUI_O_LINK_DO_DRIVE"
+            description: "Chat Missionário: Dicas para melhorar sua experiência.",
+            link: "https://drive.google.com/file/d/14jNo9vxtH-MilNPZ6fWfay4lA4qg7aRO/view?usp=sharing"
+        },
+
+        {
+            title: "Encontros Pathway Connect",
+            description: "Encontros do Pathway Connect: Dicas para melhorar sua experiência.",
+            link: "https://drive.google.com/file/d/1jYQ_qgH3iNz2VTCmNN8cnnL3bCCNnffx/view?usp=sharing"
         }
     ]
 };

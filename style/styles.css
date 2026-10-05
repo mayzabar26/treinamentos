@@ -244,19 +244,12 @@ input {font-family: inherit;}
 
 /*================CORES DOS CARDS================*/
 .portal {background: #eee7ff;}
-
 .portal .category-icon {background: #7652df;}
-
 .mission {background: #def3e6;}
-
 .mission .category-icon {background: #35a77b;}
-
 .students {background: #ffe3e7;}
-
 .students .category-icon {background: #e75d7c;}
-
 .ministry {background: #deecff;}
-
 .ministry .category-icon {background: #3986db;}
 
 /*================CARD DICAS================*/
@@ -362,11 +355,8 @@ input {font-family: inherit;}
 }
 
 .purple {color: #7046d5; background: #e5dbff;}
-
 .pink {color: #db5273; background: #ffdce4;}
-
 .green {color: #2a875f; background: #d6efdf;}
-
 .yellow {color: #d18e15; background: #ffe7ae;}
 
 /*================COMO FUNCIONA================*/
@@ -399,13 +389,9 @@ input {font-family: inherit;}
 }
 
 .purple-bg {background: #7550dd;}
-
 .pink-bg {background: #ed7088;}
-
 .green-bg {background: #35aa7b;}
-
 .blue-bg {background: #3988e1;}
-
 .step-content h3 {color: #17366c; font-size: 16px;}
 
 .step-content p {
@@ -460,7 +446,6 @@ input {font-family: inherit;}
     .hero-text {top: 170px; width: 45%;}
     .categories {width: 44%;}
 }
-
 
 /*================MEDIA QUERIES - CELULAR================*/
 @media (max-width: 760px) {
